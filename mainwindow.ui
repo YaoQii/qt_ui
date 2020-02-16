@@ -14,7 +14,7 @@
    <string>JJUV</string>
   </property>
   <property name="windowIcon">
-   <iconset>
+   <iconset resource="textures.qrc">
     <normaloff>:/images/side1.png</normaloff>:/images/side1.png</iconset>
   </property>
   <widget class="QWidget" name="centralWidget"/>
@@ -69,14 +69,14 @@
     <bool>false</bool>
    </property>
    <property name="icon">
-    <iconset>
+    <iconset resource="textures.qrc">
      <normaloff>:/images/side1.png</normaloff>:/images/side1.png</iconset>
    </property>
    <property name="text">
-    <string>test</string>
+    <string>用户模式</string>
    </property>
    <property name="toolTip">
-    <string>test acitons</string>
+    <string>模式选择</string>
    </property>
   </action>
   <action name="actiontest_bar_son">
@@ -100,6 +100,8 @@
   </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources/>
+ <resources>
+  <include location="textures.qrc"/>
+ </resources>
  <connections/>
 </ui>
